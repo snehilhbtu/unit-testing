@@ -9,7 +9,7 @@ public class EmailValidatorTest {
     @Test
     public void testIsValidGeneralEmail() {
         assertTrue(EmailValidator.isValidGeneralEmail("user@example.com"));
-        assertTrue(EmailValidator.isValidGeneralEmail("john.doe123@gmail.com"));
+        assertTrue(EmailValidator.isValidGeneralEmail("snehil123@gmail.com"));
         assertFalse(EmailValidator.isValidGeneralEmail("invalid-email"));
         assertFalse(EmailValidator.isValidGeneralEmail("user@.com"));
         assertFalse(EmailValidator.isValidGeneralEmail(null));
@@ -18,8 +18,8 @@ public class EmailValidatorTest {
     @Test
     public void testIsValidCorporateEmail() {
         assertTrue(EmailValidator.isValidCorporateEmail("employee@company.com"));
-        assertTrue(EmailValidator.isValidCorporateEmail("john.doe@company.com"));
-        assertFalse(EmailValidator.isValidCorporateEmail("user@gmail.com"));
+        assertTrue(EmailValidator.isValidCorporateEmail("snehil@company.com"));
+        assertFalse(EmailValidator.isValidCorporateEmail("snehil@gmail.com"));
         assertFalse(EmailValidator.isValidCorporateEmail("invalid-email"));
         assertFalse(EmailValidator.isValidCorporateEmail(null));
     }

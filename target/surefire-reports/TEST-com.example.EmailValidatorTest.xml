@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.EmailValidatorTest" time="0.072" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.EmailValidatorTest" time="0.038" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\snehil.gupta\AppData\Local\Temp\surefire3987462209429928022\surefirebooter-20240103010639635_3.jar C:\Users\snehil.gupta\AppData\Local\Temp\surefire3987462209429928022 2024-01-03T01-06-38_679-jvmRun1 surefire-20240103010639635_1tmp surefire_0-20240103010639635_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\snehil.gupta\AppData\Local\Temp\surefire8881094612273824724\surefirebooter-20240103095917380_3.jar C:\Users\snehil.gupta\AppData\Local\Temp\surefire8881094612273824724 2024-01-03T09-59-16_969-jvmRun1 surefire-20240103095917380_1tmp surefire_0-20240103095917380_2tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\snehil.gupta\jee eclipse-workspace\unit-testing\target\test-classes;C:\Users\snehil.gupta\jee eclipse-workspace\unit-testing\target\classes;C:\Users\snehil.gupta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\snehil.gupta\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\snehil.gupta\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\snehil.gupta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\snehil.gupta"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\snehil.gupta\AppData\Local\Temp\surefire3987462209429928022\surefirebooter-20240103010639635_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\snehil.gupta\AppData\Local\Temp\surefire8881094612273824724\surefirebooter-20240103095917380_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -53,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.5\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs\;C:\Users\snehil.gupta\AppData\Local\Microsoft\WindowsApps;C:\Users\snehil.gupta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\snehil.gupta\AppData\Roaming\npm;C:\Users\snehil.gupta\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.5\bin;C:\Users\IT.Admin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Users\snehil.gupta\AppData\Local\Microsoft\WindowsApps;C:\Users\snehil.gupta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\snehil.gupta\AppData\Roaming\npm;C:\Users\snehil.gupta\AppData\Local\Programs\Git\cmd;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.202-b08"/>
@@ -61,6 +61,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testIsValidCorporateEmail" classname="com.example.EmailValidatorTest" time="0.047"/>
-  <testcase name="testIsValidGeneralEmail" classname="com.example.EmailValidatorTest" time="0.002"/>
+  <testcase name="testIsValidCorporateEmail" classname="com.example.EmailValidatorTest" time="0.022"/>
+  <testcase name="testIsValidGeneralEmail" classname="com.example.EmailValidatorTest" time="0.001"/>
 </testsuite>

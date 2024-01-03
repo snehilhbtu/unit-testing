@@ -9,38 +9,38 @@ public class LibraryCatalogTest {
     @Test
     public void testBorrowBook() {
         LibraryCatalog libraryCatalog = new LibraryCatalog();
-        Book book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald");
-        Book book2 = new Book("To Kill a Mockingbird", "Harper Lee");
+        Book book1 = new Book("Book1", "Writer1");
+        Book book2 = new Book("Book2", "Writer2");
         libraryCatalog.addBook(book1);
         libraryCatalog.addBook(book2);
 
         // Test borrowing an available book
-        libraryCatalog.borrowBook("The Great Gatsby");
+        libraryCatalog.borrowBook("Book1");
         assertFalse(book1.isAvailable());
 
         // Test borrowing a non-existent book
-        assertDoesNotThrow(() -> libraryCatalog.borrowBook("Nonexistent Book"));
+        assertDoesNotThrow(() -> libraryCatalog.borrowBook("Book3"));
 
         // Test borrowing an already borrowed book
-        assertDoesNotThrow(() -> libraryCatalog.borrowBook("The Great Gatsby"));
+        assertDoesNotThrow(() -> libraryCatalog.borrowBook("Book1"));
     }
 
     @Test
     public void testReturnBook() {
         LibraryCatalog libraryCatalog = new LibraryCatalog();
-        Book book1 = new Book("The Catcher in the Rye", "J.D. Salinger");
-        Book book2 = new Book("1984", "George Orwell");
+        Book book1 = new Book("Book1", "Writer1");
+        Book book2 = new Book("Book2", "Writer2");
         libraryCatalog.addBook(book1);
         libraryCatalog.addBook(book2);
 
         // Borrow a book first
-        libraryCatalog.borrowBook("1984");
+        libraryCatalog.borrowBook("Book1");
 
         // Test returning an already borrowed book
-        libraryCatalog.returnBook("1984");
+        libraryCatalog.returnBook("Book1");
         assertTrue(book2.isAvailable());
 
         // Test returning a non-existent book
-        assertDoesNotThrow(() -> libraryCatalog.returnBook("Nonexistent Book"));
+        assertDoesNotThrow(() -> libraryCatalog.returnBook("Book3"));
     }
 }
